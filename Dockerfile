@@ -9,5 +9,6 @@ RUN yum update -y && \
 USER 1001
 
 ENV MEMCACHED_PORT=11211
+EXPOSE 11211
 
 CMD memcached -p $MEMCACHED_PORT
