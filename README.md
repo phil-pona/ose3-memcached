@@ -9,7 +9,7 @@ $ oc new-project example-ruby-passenger-helloworld
 
 #### Create Application and expose Service
 ```
-$ oc new-app https://github.com/phil-pona/ruby-passenger-ose3.git  --strategy=docker --name=appuio-ruby-pass-ex
+$ oc new-app https://github.com/phil-pona/ose3-memcached.git  --strategy=docker --name=memcached
 
 $ oc expose service appuio-ruby-pass-ex
 ```
